@@ -1,0 +1,82 @@
+input {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+textarea{
+    border: 5px solid gray;
+    border-radius: 5px;
+}
+body{
+  background-color: #E6E6E6;
+}
+li a, input{
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+input[type=submit], input[type=reset] {
+    background-color: #777;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 0px 2px;
+    cursor: pointer;
+}
+button {
+    background-color: white;
+    color: black;
+    border: 3px solid #555555;
+    opacity: 0.6;
+}
+button:hover {
+    background-color: #555555;
+    color: white;
+    opacity: 1;
+    transition: 0.3s;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    color: gray;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+li {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+.espacale{
+  display: inline-block;
+  width: 13.6%;
+  margin-bottom: 5px;
+}
